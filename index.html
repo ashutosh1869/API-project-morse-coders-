@@ -6,21 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MARVEL</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <!-- <link rel="stylesheet" href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid&pc=%23000000"> -->
 </head>
 <body>
     <header>
         <nav>
-            <h1>MARVEL</h1>
+            <div class="logo"><img src="marvellogo.png" alt="MARVEL"></div>
             <ul>
-                <li>movies</li>
-                <li>comics</li>
-                <li>characters</li>
-                <li>shop</li>
+                <li><a href="movies.html">movies</a></li>
+                <li><a href="comics.html">comics</a></li>
+                <li><a href="characters.html">characters</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass" ></i>
+                </li>
             </ul>
         </nav>
+        
     </header>
     <main>
+        <div class="container" style="background-image: url(marvelbg1.jpg);">
+            <!-- <div class="search-box">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass" ></i>
+                </div>
+                <form action="form.php">
+                    <input type="text" placeholder="search characters,movies,comics..">
+                </form>
+                
+            </div> -->
+        </div>
         <div class="movies preview">
             <div class="ironman-image-box"><img src="/movies/ironman.jpg" alt="ironman"></div>
             <div class="spiderman-image-box"><img src="/movies/spiderman.jpg" alt="spiderman"></div>
@@ -80,6 +96,7 @@
         </div>
     </main>
     <footer></footer>
-    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d7c21c612d.js" crossorigin="anonymous"></script>
+    <script src="/script/script.js"></script>
 </body>
 </html>
