@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shop-marvel</title>
-    <style>
-        body{
-            min-height: 100vh;
-        }
-        h1{
-            display: flex;
-            text-align: center;
-            align-items: center;
-            color: red;
-            margin: auto;
-        }
-    </style>
+    <title>Marvel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <H1>COMING SOON !!</H1>
-    
+    <header >
+        <img class="logo" src="images/marvel.png">
+        <nav>
+            <ul class="navlinks">
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </nav>
+        <a class="home" href="#"><button>Home</button></a>
+    </header>
+    <div class="container">
+           <div class="searchbar">
+               <input type="text" placeholder="Search Comics" id="input-box"/>
+               <button type="submit" id="submit-button" >Submit</button>  
+           </div>
+           <div class="display-container" id="show-container">
+            
+           </div>  
+    </div>
+
+    <script src="script.js"></script> 
 </body>
 </html>
