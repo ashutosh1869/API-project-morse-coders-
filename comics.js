@@ -15,7 +15,7 @@ button.addEventListener(
         const response = await fetch(url);
         const jsonData = await response.json();
         jsonData.data["results"].forEach((element) => {
-            showContainer.innerHTML += `<div class="card-container"><div class="container-comic-thumbnail"><img src ="${element.thumbnail["path"] +"."+ element.thumbnail["extension"]}"/></div> <div class="comic-name">${element.title}</div><div class="comic-description">${element.description}</div><div class="comic-blurb">${element.textObjects}</div><div class="comic-characters">${element.characters}</div></div>`;
+            showContainer.innerHTML += `<div class="card-container"><div class="front-comic-thumbnail"><img src ="${element.thumbnail["path"] +"."+ element.thumbnail["extension"]}"/></div> <div class="back-comic-name">${element.title}</div></div>`;
         });
 
     })
