@@ -4,31 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvel</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="comics.css">  
+    <script src="https://kit.fontawesome.com/9d63a7fb7b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header >
-        <img class="logo" src="images/marvel.png">
+        <img class="logo" src="comics/marvel.png">
         <nav>
             <ul class="navlinks">
-                <li><a href="#">Characters</a></li>
-                <li><a href="#">Comics</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="comics.html">Comics</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <!-- <li><a href="#">Shop</a></li> -->
             </ul>
         </nav>
-        <a class="home" href="#"><button>Home</button></a>
+        <a class="home" href="index.html"><button>Home</button></a>
     </header>
     <div class="container">
            <div class="searchbar">
-               <input type="text" placeholder="Search Comics" id="input-box"/>
-               <button type="submit" id="submit-button" >Submit</button>  
+               <input type="text" class="input" placeholder="Search Comics" id="input-box"/>
+               <button class="button" id="submit-button" >Submit</button>  
            </div>
-           <div class="display-container" id="show-container">
-            
-           </div>  
+           
+           <div class="display-container" id="show-container" ></div>
+
+           <div class="wrapper">
+              <h2>Read Now</h2>
+              <div class="carousel">
+                <a href="https://read.marvel.com/#/book/63125"><img src="comics/img1.jpg"></a>
+                <a href="https://read.marvel.com/#/book/54261"><img src="comics/img2.jpg"></a>
+                <a href="https://read.marvel.com/#/book/48615"><img src="comics/img10.jpg"></a>
+                <a href="https://read.marvel.com/#/book/39389"><img src="comics/img13.jpg"></a>
+                <a href="https://read.marvel.com/#/book/46539"><img src="comics/img12.jpg"></a>
+                <a href="https://read.marvel.com/#/book/48601"><img src="comics/img9.jpg"></a>
+                <a href="https://read.marvel.com/#/book/48246"><img src="comics/img3.jpg"></a>
+                <a href="https://read.marvel.com/#/book/48288"><img src="comics/img5.jpg"></a>
+                <a href="https://read.marvel.com/#/book/48243"><img src="comics/img8.jpg"></a>
+                <a href="https://read.marvel.com/#/book/43227"><img src="comics/img15.jpg"></a>  
+              </div>   
+           </div>        
     </div>
 
-    <script src="script.js"></script> 
+    <footer class="footer-area">
+       
+        <div class="main">
+          <div class="footer">
+            <div class="single-footer">
+              <h4>About Us</h4>
+              <p>
+                "Welcome to our Marvel Universe, where design and fandom collide! Embrace your inner hero as we craft immersive experiences for true believers and die-hard enthusiasts alike."
+              </p>
+              <div class="footer-social">
+                <a href="https://www.instagram.com/enigma_vssut"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/enigma.vssut?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/enigma-vssut/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ashutosh1869/API-project-morse-coders-.git"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="single-footer">
+              <h4>main menu</h4>
+              <ul>
+                <li>
+                  <a href=""><i class="fas fa-chevron-right"></i>Home</a>
+                </li>
+                <li>
+                  <a href=""><i class="fas fa-chevron-right"></i>Characters</a>
+                </li>
+                <li>
+                  <a href=""><i class="fas fa-chevron-right"></i>Comics</a>
+                </li>
+                <li>
+                  <a href=""><i class="fas fa-chevron-right"></i>Movies</a>
+                </li>
+                <li>
+                  <a href=""><i class="fas fa-chevron-right"></i>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="single-footer">
+              <h4>Morse Coders</h4>
+              <ul>
+                <li>Ashutosh Panigrahi</li>
+                <li>Komal Goel</li>
+                <li>Kritika Sureka</li>
+                <li>Chinmaya Behera</li>
+              </ul>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>&copy; 2023 all rights reserved</p>
+          </div>
+        </div>
+      </footer>
+    <script src="comics.js"></script> 
 </body>
 </html>
