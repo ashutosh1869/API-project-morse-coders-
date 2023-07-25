@@ -226,6 +226,83 @@ main .movies{
     width: 100%;
     
 }
+.footer-area {
+    margin-top: 100px;
+    padding: 10px 0;
+    background-image: linear-gradient(to bottom right, rgba(197, 4, 4, 0.722), rgba(0, 0, 0, 0.162));
+    position:relative;
+    border-radius: 0px 0px 0px 0px;
+  }
+  .main {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .footer-social i{
+    padding: o;
+    width: 40px;
+    border-radius: 1000%;
+  }
+  .single-footer {
+    width: 230px;
+  }
+  .single-footer:first-child {
+    width: 400px;
+  }
+  .single-footer h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .footer-social a {
+    color: #fff;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .footer-social {
+    margin-top: 20px;
+  }
+  .single-footer ul {
+    list-style: none;
+  }
+  body > footer > div > div.footer > div:nth-child(1) > p{
+    color: #fff;
+  }
+  .single-footer ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+    color: #fff;
+  }
+  .single-footer ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .single-footer ul li a i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+  
+  .copyright {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+    color: gray;
+  }
 
 
 
