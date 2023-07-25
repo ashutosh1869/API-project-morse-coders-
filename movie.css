@@ -232,6 +232,7 @@ img{
     justify-content: space-around;
     margin: auto;
     gap: 20px;
+    z-index:100;
 }
 .movie-poster img{
     max-width: 300px;
