@@ -22,8 +22,10 @@ button.addEventListener
             <div class="container-character-image"><img src="${element.thumbnail["path"] + "." 
                 + element.thumbnail["extension"]}"/>
             </div>
+            <div class="name-description">
             <div class="character-name">${element.name}</div>
             <div class="character-description">${element.description}</div>
+            </div>
             </div>`;
         });
     })
